@@ -70,6 +70,8 @@ The script includes the following configuration options:
 
 - **DHCP Server**: The script starts a DHCP server on the input interface to provide IP addresses to devices connected to the bridge. You can adjust the DHCP configuration by editing the `dhcp.conf` file.
 
+- **DHCP Config**: The script comes with a `dhcp.conf` which includes address information (which you can change)
+
 ## Note
  - **I included an busybox binary so that the script works out of the box, but you can use your own busybox installation
 
