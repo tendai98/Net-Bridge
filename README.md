@@ -21,13 +21,13 @@ To use the script, follow these steps:
 1. Clone this repository or download the script to your Linux system.
 
    ```bash
-   git clone https://github.com/yourusername/network-bridge.git
+   git clone https://github.com/tendai98/Net-Bridge.git
    ```
 
 2. Open a terminal and navigate to the directory where the script is located.
 
    ```bash
-   cd network-bridge
+   cd Net-Bridge.git
    ```
 
 3. Make the script executable, if needed.
@@ -69,6 +69,9 @@ The script includes the following configuration options:
 - **Interface Configuration**: The script uses `busybox ifconfig` to configure the input interface with the specified `<gateway-ip>`. You can customize this part of the script to meet your network's addressing needs.
 
 - **DHCP Server**: The script starts a DHCP server on the input interface to provide IP addresses to devices connected to the bridge. You can adjust the DHCP configuration by editing the `dhcp.conf` file.
+
+## Note
+ - **I included an busybox binary so that the script works out of the box, but you can use your own busybox installation
 
 ## License
 
